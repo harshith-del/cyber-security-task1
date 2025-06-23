@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Port Scan Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #2c3e50; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Network Port Scan Report</h1>
+    
+    <h2>Scan Summary</h2>
+    <table>
+        <tr><th>Target IP</th><td>117.99.197.181</td></tr>
+        <tr><th>Protocol</th><td>TCP</td></tr>
+        <tr><th>Scan Type</th><td>SYN Scan</td></tr>
+        <tr><th>Ports Scanned</th><td>Top 100 ports</td></tr>
+        <tr><th>Open Ports Found</th><td>0</td></tr>
+    </table>
 
+    <h2>Scan Details</h2>
+    <table>
+        <tr><th>Start Time</th><td>Jun 23, 2025 / 16:31:08 UTC+03</td></tr>
+        <tr><th>End Time</th><td>Jun 23, 2025 / 16:31:20 UTC+03</td></tr>
+        <tr><th>Duration</th><td>12 seconds</td></tr>
+    </table>
+
+    <h2>Analysis</h2>
+    <p>No open ports were detected during the scan. This could indicate:</p>
+    <ul>
+        <li>Active firewall blocking all connections</li>
+        <li>Services running on non-standard ports</li>
+        <li>Target system security hardening</li>
+    </ul>
+
+    <h2>Next Steps</h2>
+    <ol>
+        <li>Verify network connectivity to the target</li>
+        <li>Check for ICMP responses (ping)</li>
+        <li>If authorized, scan extended port ranges</li>
+    </ol>
+</body>
+</html>
