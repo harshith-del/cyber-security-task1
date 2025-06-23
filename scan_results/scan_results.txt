@@ -1,2 +1,28 @@
-IP: 192.168.1.1
-Open ports: 22 (SSH), 80 (HTTP)
+# Nmap Port Scan Results
+# Date: Jun 23, 2025
+
+## Target Information
+IP Address: 117.99.197.181
+Protocol: TCP
+Scan Type: SYN Scan
+Ports Scanned: Top 100 ports
+
+## Findings
+- Open ports found: 0
+- Host status: Online but no open ports detected
+
+## Scan Details
+- Start time: Jun 23, 2025 / 16:31:08 UTC+03
+- Finish time: Jun 23, 2025 / 16:31:20 UTC+03
+- Duration: 12 seconds
+
+## Analysis
+No open ports were detected on the target system. Possible explanations:
+1. The host has strict firewall rules blocking all incoming connections
+2. All services are configured to use non-standard ports
+3. The system is intentionally hardened for security
+
+## Recommendations
+- Verify target accessibility
+- Check if ICMP responses are enabled (ping test)
+- Consider scanning a wider port range if authorized
